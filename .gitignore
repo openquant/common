@@ -15,3 +15,25 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+
+# Editor backup
+.*.swp
+.*.kate-swp
+*~
+*.tmp
+
+# Idea and sbt artifacts
+/.ensime*
+/.idea
+/.idea_modules
+/target
+/project/project
+/project/target
+**/target/
+
+# Python
+*.pyc
+__pycache__
+
+/*.log
