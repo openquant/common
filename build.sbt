@@ -2,7 +2,7 @@ lazy val commonSettings = Seq (
     version := "0.1",
     organization := "openquant",
     name := "common",
-    scalaVersion := "2.11.7",
+    scalaVersion := "2.11.8",
     scalacOptions := Seq("-unchecked", "-deprecation", "-feature", "-encoding", "utf8"),
     resolvers ++= Seq(
         Resolver.sonatypeRepo("releases"),
@@ -18,7 +18,6 @@ lazy val testDependencies = Seq(
 lazy val commonDependencies = Seq(
     "org.scalaz" %% "scalaz-core" % "7.2.0",
     "org.slf4j" % "jcl-over-slf4j" % "1.7.7",
-    "commons-logging" % "commons-logging" % "99-empty",
     "ch.qos.logback" % "logback-classic" % "1.1.3",
     "com.iheart" %% "ficus" % "1.2.3"
 )
